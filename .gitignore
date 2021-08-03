@@ -1,12 +1,10 @@
-# to exclude Obsidian workspace settings (including plugin and hotkey configurations)
-.obsidian/
-
-# OR only to exclude workspace cache
-.obsidian/workspace
-
-# This file is used to keep track of last auto backup/pull
-.obsidian-git-data
-
-# Add below lines to exclude OS settings and caches
-.trash/
-.DS_Store
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:<redacted>.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
